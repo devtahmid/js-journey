@@ -1,0 +1,71 @@
+<!-- this uses js, later use pure css -->
+<html lang="en">
+
+<head>
+  <title>Accordian</title>
+  <style>
+    body {
+      background-color: bisque;
+      display: flex;
+      justify-content: center;
+    }
+
+    .accordian {
+      width: 60%;
+      border: 5px solid black;
+      padding: 5px;
+    }
+
+    .item-container {
+      border-radius: 5px;
+      border: 3px solid white;
+      padding: 5px;
+      margin: 4px;
+      font-size: 25px;
+      font-family: monospace;
+    }
+
+    .question {
+      background-color: rgb(211, 111, 206);
+    }
+
+    .answer {
+      display: none;
+      background-color: rgb(233, 213, 227);
+
+    }
+
+    .display-block {
+      display: block;
+      transition-delay: 2s;
+      /*why no work?*/
+    }
+  </style>
+</head>
+
+<body>
+  <div class="accordian">
+    <h3 style="text-align: center;">FAQs</h3>
+    <div class="item-container">
+      <div class="question">
+        What is the business timing?</div>
+      <div class="answer">
+        We are open from 8am to 6pm everyday except weekends</div>
+    </div>
+    <div class="item-container">
+      <div class="question">
+        Do you have a delivery option?</div>
+      <div class="answer">
+        We provide free delivery through our app.</div>
+    </div>
+    <div class="item-container">
+      <div class="question">
+        Where can I leave a review?</div>
+      <div class="answer">
+        We have a review button on our app's menu</div>
+    </div>
+  </div>
+</body>
+<script src="accordianProject3.js"></script>
+
+</html>
