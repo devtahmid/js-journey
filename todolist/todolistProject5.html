@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Todo list</title>
+  <style>
+    body {
+      background: url('sofa.jpg') no-repeat center center/ cover;
+      height: 100vw;
+    }
+
+    .main-container {
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      background-color: white;
+      width: 45%;
+      border-radius: 7px;
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+      height: 40px;
+      align-items: center;
+    }
+
+    input {
+      border: 2px solid rgb(4, 4, 57);
+      border-radius: 5px;
+      width: 280px;
+      padding: 5px;
+    }
+
+    .plus {
+      border: 2px solid rgb(2, 71, 2);
+      border-radius: 5px;
+      color: rgb(2, 71, 2);
+      width: 3rem;
+      text-align: center;
+      font-weight: 1000;
+    }
+
+    .secondary-container {
+      position: absolute;
+      top: 39%;
+      left: 30%;
+      background-color: white;
+      width: 45%;
+      border-radius: 7px;
+      padding: 5px;
+      display: none;
+    }
+
+    .task {
+      width: 100%;
+      padding: 4px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .task-name {
+      border: 2px solid black;
+      border-radius: 5px;
+      font-size: 20px;
+      width: 70%;
+      padding: 3px;
+    }
+
+    .task-done {
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 5px;
+      font-size: 20px;
+color:green;
+    }
+
+    .task-remove {
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 5px;
+      font-size: 20px;
+color:red;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="field"><input type="name" placeholder="Enter Task..."></div>
+    <div class="plus">+</div>
+  </div>
+  <div class="secondary-container">
+  </div>
+
+</body>
+<script src="https://kit.fontawesome.com/1614020ccb.js" crossorigin="anonymous"></script>
+<script src="todolistProject5.js"></script>
+</html>
