@@ -1,3 +1,3 @@
 # todo list
 
-![image](https://user-images.githubusercontent.com/27241074/194784323-609ce74d-a3e6-4498-8bc3-a01470051d95.png)
+![image](https://user-images.githubusercontent.com/27241074/194784348-59058035-0985-4227-9b91-4a6b2a035300.png)
