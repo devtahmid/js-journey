@@ -42,7 +42,6 @@ function stopwatch() {
   else
     displayHours = hours;
   document.getElementsByClassName("timer")[0].innerText = displayHours + ":" + displayMins + ":" + displaySeconds;
-  console.log(seconds + "-" + mins + "-" + hours)
 }
 
 secondButton.addEventListener("click", function () {
